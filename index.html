@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f1e9">
   <meta name="google-site-verification" content="SLRRyPUAgXTv63GK3URataTxQ1tyDfyrcpqGYrD7whM">
   <meta name="application-name" content="MAX">
   <meta name="description" content="MAX is a simple MUN guide for committee debate, motions, speeches, and resolutions. Clear help for Model United Nations delegates.">
   <meta property="og:site_name" content="MAX">
-  <meta property="og:title" content="MAX | MUN Guide &amp; Committee">
+  <meta property="og:title" content="MAX | MUN Guide & Committee">
   <meta property="og:description" content="A simple MUN guide for committee debate, motions, speeches, and resolutions.">
   <title>MAX | MUN Guide &amp; Committee</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,3 +39,121 @@
     @media(max-width:620px){.definition-grid{grid-template-columns:1fr 1fr}.definition-grid article{padding:17px 11px 18px 0;min-height:195px}.definition-grid article+article{padding-left:11px}.definition-grid article:nth-child(3){padding-left:0}.definition-grid h3{font-size:19px;margin:20px 0 8px}.definition-grid p{font-size:11px}.note-strip{align-items:flex-start;flex-direction:column;gap:4px;padding:14px}.motion-steps>div{padding-right:10px}.motion-steps>div+div{padding-left:12px}.motion-steps>div:nth-child(3){padding-left:0}.motion-steps b{font-size:18px}.motion-steps p{font-size:11px}.motion-row{grid-template-columns:1fr 1fr;gap:5px 12px;padding:12px 0}.motion-row.head{display:none}.motion-row .quote{grid-column:1/-1;padding-top:4px;font-size:13px}.motion-row>span:nth-child(2){text-align:right;font-size:11px}.resolution-layout{grid-template-columns:1fr;gap:25px}.draft-example{padding:22px 19px}.influence-wrap{grid-template-columns:1fr;gap:28px}.influence-photo{height:350px;order:2}.influence-copy{order:1}.influence-list article{grid-template-columns:122px 1fr;gap:9px}.influence-list b{font-size:15px}.quickchapter,.motion-guide,.resolution,.influence{padding:64px 0}}
     /* Larger reading sizes and clearer motion examples */
     body{font-size:17px}.nav{font-size:15px}.mono,.step,.motion-steps .mono{font-size:12px}.lede{font-size:18px}.section-head p,.builder-intro p,.motions-copy>p,.influence-copy>p{font-size:16px}.flow-card p,.guide-link,.builder-form .field input,.field label,.tip,.copy-btn,.motion-row,.motion-row .quote,.draft-steps p,.influence-list article,.fineprint{font-size:15px}.flow-card .step{font-size:12px}.phrase-tab{font-size:16px}.phrase-card .swap{font-size:15px}.definition-grid p{font-size:15px}.definition-grid .mono{font-size:12px}.motion-row b{font-size:16px}.motion-row .quote{font-family:var(--sans);line-height:1.7}.generated{font-size:17px}.clause-key{font-size:14px}.photo-label{font-size:11px}.motion-steps p{font-size:15px}.motion-steps b{font-size:21px}.motion-row{grid-template-columns:.8fr .85fr 1.7fr;gap:18px}
+    @media(max-width:620px){body{font-size:16px}.section-head p,.builder-intro p,.motions-copy>p,.influence-copy>p{font-size:15px}.flow-card p,.guide-link,.definition-grid p,.motion-steps p,.draft-steps p,.influence-list article,.fineprint{font-size:14px}.field label{font-size:12px}.motion-row{font-size:14px;grid-template-columns:1fr 1fr}.motion-row b{font-size:15px}.motion-row .quote{font-size:14px}.motion-row>span:nth-child(2){font-size:13px}.phrase-tab{font-size:14px}.phrase-card .swap{font-size:14px}.draft-steps b{font-size:18px}.tip{font-size:14px}.clause-key{font-size:13px}}
+    .flow-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.flow-card{padding-right:14px}.flow-card+.flow-card{padding-left:14px}.flow-card h3{font-size:22px}.flow-card p{font-size:14px}.ticker-track{font-size:13px}.footer-bottom{font-size:12px}.photo-label{font-size:12px}.btn,.textlink{font-size:15px}.step{font-size:12px}
+    @media(max-width:850px){.flow-grid{grid-template-columns:1fr 1fr}.flow-card:nth-child(3){border-left:0;padding-left:0;border-top:1px solid #c9c9bc}.flow-card:nth-child(4){border-top:1px solid #c9c9bc}.flow-card:nth-child(5){border-top:1px solid #c9c9bc}}
+    @media(max-width:620px){.flow-grid{grid-template-columns:1fr}.flow-card,.flow-card+.flow-card,.flow-card:nth-child(3){padding:18px 0;border-left:0;min-height:0}.flow-card+.flow-card{border-top:1px solid #c9c9bc}.flow-card h3{margin:17px 0 8px}.flow-card p{max-width:none;font-size:15px}.flow-card:nth-child(5){border-top:1px solid #c9c9bc}.motion-row .quote{font-size:14px;line-height:1.7}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Paxence home"><span class="brandmark">P</span><span>Paxence</span></a>
+      <nav class="nav" id="nav"><a href="#flow">The room</a><a href="#motion-guide">Motions</a><a href="#builder">Your speech</a><a href="#resolution">Draft a resolution</a><a href="#influence">Influence</a></nav>
+      <div class="top-right"><span class="mono edition">A field guide · No. 01</span><button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow mono">A pocket handbook for the committee room</div>
+          <h1>Know the room.<br><em>Move it forward.</em></h1>
+          <p class="lede">The short guide to debate, motions, speeches and resolutions—so you can speak with purpose and help the committee get somewhere.</p>
+          <div class="hero-actions"><a class="btn" href="#flow">Get your bearings <span>↘</span></a><a class="textlink" href="#builder">Start a speech <span>→</span></a></div>
+        </div>
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1400&q=85" alt="Students meeting and collaborating around a table" fetchpriority="high"><span class="photo-index mono">01 / PREPARE</span><div class="photo-label">Clear thinking. Considered words.</div><div class="hero-note">Be curious.<br>Be clear.<b>Then be heard.</b></div></div>
+      </section>
+    </main>
+  </div>
+  <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Listen for the room</span> · <span>Make the point</span> · <span>Build the bridge</span> · <span>Keep it diplomatic</span> · <span>Listen for the room</span> · <span>Make the point</span> · <span>Build the bridge</span> · <span>Keep it diplomatic</span> ·</div></div>
+  <section class="flow" id="flow"><div class="wrap">
+    <div class="section-head reveal"><div><div class="mono label">01 — Read the room</div><h2>How a committee moves.</h2></div><p>From roll call to adjournment, here is the usual route. Your chair’s rules set the exact order.</p></div>
+    <div class="flow-grid reveal">
+      <article class="flow-card"><div class="step">01 / ROLL CALL</div><h3>Be counted</h3><p>The chair calls each country. Answer “present” or “present and voting”, as your rules require. The committee sets the agenda.</p></article>
+      <article class="flow-card"><div class="step">02 / FORMAL DEBATE</div><h3>Open the GSL</h3><p>A motion opens formal debate and the General Speakers’ List (GSL). Delegates give prepared speeches and state their country’s position.</p><a class="guide-link" href="#builder">Plan your speech ↗</a></article>
+      <article class="flow-card"><div class="step">03 / CAUCUSES</div><h3>Focus & consult</h3><p>A motion can suspend formal debate and move to a moderated caucus for focused speeches, or an unmoderated caucus to consult.</p><a class="guide-link" href="#motion-guide">See how to ask ↗</a></article>
+      <article class="flow-card"><div class="step">04 / DRAFT & VOTE</div><h3>Make a decision</h3><p>Delegates write and introduce draft resolutions, debate them, consider amendments, then vote.</p><a class="guide-link" href="#resolution">Draft a resolution ↗</a></article>
+      <article class="flow-card"><div class="step">05 / ADJOURN</div><h3>Close the session</h3><p>After the committee’s work is done, the chair adjourns the meeting until the next session or ends it for the day.</p><a class="guide-link" href="#room">Know the terms ↗</a></article>
+    </div>
+  </div></section>
+  <section class="quickchapter" id="room"><div class="wrap">
+    <div class="section-head reveal"><div><div class="mono label">Field note 01 — The room</div><h2>What is happening?</h2></div><p>Keep these basics in your pocket. Your conference rules may use slightly different names or order.</p></div>
+    <div class="definition-grid reveal">
+      <article><span class="mono">01 / Debate</span><h3>Ideas on the record</h3><p>Delegates speak about the topic, explain their country’s position, and respond to proposals. The chair manages turns and procedure.</p></article>
+      <article><span class="mono">02 / Motion</span><h3>A formal request</h3><p>A delegate asks the committee to take a procedural action: change the debate format, move to voting, or end a session.</p></article>
+      <article><span class="mono">03 / Closure of debate</span><h3>Stop debate on this item</h3><p>A request to end debate on the current topic or draft and move toward voting. The chair may take speakers for and against first.</p></article>
+      <article><span class="mono">04 / Adjournment</span><h3>End the meeting</h3><p>A request to suspend or end the committee session. “Adjournment of debate” can mean a temporary pause; check your rules.</p></article>
+    </div>
+    <div class="note-strip reveal"><b>Easy distinction</b><span>Closure ends debate on an item. Adjournment ends or pauses the meeting. Neither one passes a resolution by itself.</span></div>
+  </div></section>
+  <section class="motion-guide" id="motion-guide"><div class="wrap">
+    <div class="section-head reveal"><div><div class="mono label">Field note 02 — Motions</div><h2>How to make a motion.</h2></div><p>Wait until the chair asks for motions, raise your placard, and say the request in one clean sentence.</p></div>
+    <div class="motion-steps reveal"><div><span>1</span><b>Get the floor</b><p>Raise your placard when the chair opens the floor.</p></div><div><span>2</span><b>Name the action</b><p>Say “Motion for…” and state the format or next step.</p></div><div><span>3</span><b>Give the details</b><p>Include topic, total time, and speaker time when required.</p></div><div><span>4</span><b>Yield to the chair</b><p>The chair rules, takes seconds or objections if needed, then announces the result.</p></div></div>
+    <div class="motion-table reveal"><div class="motion-row head"><span>Motion / point</span><span>When it helps</span><span>Example wording</span></div>
+      <div class="motion-row"><b>Open formal debate / GSL</b><span>Start formal speeches after roll call and agenda setting.</span><span class="quote">“The delegate of [country] would like to raise a motion to open formal debate and establish the General Speakers’ List, with an individual speaking time of [time].”</span></div>
+      <div class="motion-row"><b>Moderated caucus</b><span>Pause formal debate (the GSL) and hold short, timed speeches on one topic.</span><span class="quote">“The delegate of [country] would like to raise a motion to suspend formal debate and move into informal debate, specifically a moderated caucus on the topic of [topic] for 10 minutes, with an individual speaking time of 30 seconds.”</span></div>
+      <div class="motion-row"><b>Unmoderated caucus</b><span>Pause formal debate so delegates can talk and work together.</span><span class="quote">“The delegate of [country] would like to raise a motion to suspend formal debate and move into an unmoderated caucus for 10 minutes to discuss [topic].”</span></div>
+      <div class="motion-row"><b>Introduce a draft resolution</b><span>Present a document once it meets the committee’s requirements.</span><span class="quote">“The delegate of [country] would like to raise a motion to introduce Draft Resolution 1.1.”</span></div>
+      <div class="motion-row"><b>Close debate</b><span>End debate on the topic or draft and move towards voting.</span><span class="quote">“The delegate of [country] would like to raise a motion to close debate on [topic / draft resolution] and move into voting procedure.”</span></div>
+      <div class="motion-row"><b>Adjourn the meeting</b><span>End the committee session, usually for the day.</span><span class="quote">“The delegate of [country] would like to raise a motion to adjourn the meeting until [time / next session].”</span></div>
+      <div class="motion-row"><b>Point of parliamentary inquiry</b><span>Ask the chair how procedure works.</span><span class="quote">“Point of parliamentary inquiry: could the chair clarify the speaking time?”</span></div>
+      <div class="motion-row"><b>Point of personal privilege</b><span>Raise an immediate comfort or audibility issue.</span><span class="quote">“Point of personal privilege: could the speaker please speak louder?”</span></div>
+    </div>
+    <p class="fineprint">Exact wording, voting thresholds, seconds, and precedence depend on your conference’s rules of procedure. If unsure, ask the chair before session.</p>
+  </div></section>
+  <section id="builder"><div class="wrap builder">
+    <div class="builder-intro reveal"><div class="mono label">02 — Find your structure</div><h2>A speech with a clear centre.</h2><p>Use this simple three-part frame to organise your opening remarks. Add your own research and country policy; the tool keeps your notes on this page.</p><div class="tip"><strong>A useful rhythm:</strong> position → proposal → invitation. One strong idea lands better than a list of everything you know.</div></div>
+    <div class="reveal"><form class="builder-form" id="speechForm">
+      <div class="field"><label for="country">Your delegation</label><input id="country" placeholder="e.g. Republic of Kenya" autocomplete="off"></div>
+      <div class="field"><label for="topic">Agenda topic</label><input id="topic" placeholder="e.g. food security in conflict zones" autocomplete="off"></div>
+      <div class="field"><label for="position">Your position</label><input id="position" placeholder="What should the committee understand?" autocomplete="off"></div>
+      <div class="field"><label for="proposal">One proposal</label><input id="proposal" placeholder="A practical action your country supports" autocomplete="off"></div>
+      <div class="builder-bottom"><span class="mono label">About 45 seconds when spoken</span><button class="btn" type="submit">Build my outline <span>↗</span></button></div>
+      <div class="generated" id="result" aria-live="polite"></div>
+      <button class="copy-btn" id="copy" type="button" hidden>Copy outline</button>
+    </form></div>
+  </div></section>
+  <section class="resolution" id="resolution"><div class="wrap">
+    <div class="section-head reveal"><div><div class="mono label">Field note 03 — Drafting</div><h2>Turn ideas into a resolution.</h2></div><p>A draft resolution is a committee document proposing actions. Keep each clause clear, specific, and connected to the problem.</p></div>
+    <div class="resolution-layout reveal"><div class="draft-steps"><div><span class="mono">01</span><section><b>Agree on the problem</b><p>Gather evidence and find the shared concern your group wants to address.</p></section></div><div><span class="mono">02</span><section><b>Choose practical actions</b><p>Decide who does what, how it is funded, and how progress can be checked.</p></section></div><div><span class="mono">03</span><section><b>Write in clauses</b><p>Use short preambulatory clauses for context, then numbered operative clauses for actions.</p></section></div><div><span class="mono">04</span><section><b>Review and submit</b><p>Check format, sponsors and signatories, then follow the chair’s process to introduce it.</p></section></div></div>
+      <div class="draft-example"><div class="mono">A tiny clause example</div><h3>Operative clause</h3><p class="clause">1. <u>Encourages</u> Member States to share early-warning data through existing regional coordination offices;</p><div class="clause-key"><span><b>1.</b> number clauses in order</span><span><b>Encourages</b> begin with an action verb</span><span><b>;</b> end clauses with punctuation per your guide</span></div><div class="preamb">Preambulatory clauses set context: “Recognising…”, “Concerned by…”, “Recalling…”</div></div></div>
+    <div class="note-strip reveal"><b>Keep it workable</b><span>Prefer “who will do what” over “we urge everyone to solve the issue.” Avoid promises outside the body’s authority.</span></div>
+  </div></section>
+  <section class="influence" id="influence"><div class="wrap influence-wrap">
+    <div class="influence-photo reveal"><img src="https://images.unsplash.com/photo-1773828977866-baed2942b424?auto=format&fit=crop&w=1200&q=85" alt="A woman speaking at a podium to a conference audience" loading="lazy"><div class="photo-label">Influence begins with listening.</div></div>
+    <div class="influence-copy reveal"><div class="mono label">Field note 04 — Influence</div><h2>Lead the work.<br>Earn the room.</h2><p>As a delegate, you do not rule the committee—the chair does. You can shape where it goes by making useful contributions and helping others find common ground.</p>
+      <div class="influence-list"><article><b>Know your brief.</b><span>Carry your country’s priorities, limits, and one or two facts you can explain.</span></article><article><b>Speak to the gap.</b><span>Listen for what has not been addressed, then make one focused proposal.</span></article><article><b>Ask, then adapt.</b><span>Find out what other delegations need. Adjust wording without losing your core principle.</span></article><article><b>Make the next step easy.</b><span>Offer draft text, connect people, and give credit. Follow through on what you promise.</span></article></div>
+      <div class="tip"><strong>Strong and diplomatic:</strong> state the concern clearly, support it with a reason, then offer a path forward.</div>
+    </div>
+  </div></section>
+  <section class="phrase-section" id="diplomacy"><div class="wrap">
+    <div class="section-head reveal"><div><div class="mono label">03 — Tune your tone</div><h2>Firm on the issue.<br>Open with people.</h2></div><p>Diplomacy is clarity with room for others. Choose language that makes your position easier to engage with.</p></div>
+    <div class="phrase-layout reveal"><div class="phrase-tabs" role="tablist" aria-label="Diplomatic phrase categories">
+      <button class="phrase-tab active" data-type="disagree" role="tab" aria-selected="true">Disagree with care</button><button class="phrase-tab" data-type="propose" role="tab" aria-selected="false">Put forward an idea</button><button class="phrase-tab" data-type="invite" role="tab" aria-selected="false">Build consensus</button><button class="phrase-tab" data-type="respond" role="tab" aria-selected="false">Respond to a challenge</button>
+    </div><div class="phrase-card" id="phraseCard" role="tabpanel"></div></div>
+  </div></section>
+  <section id="motions"><div class="wrap motions">
+    <div class="motions-photo reveal"><img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=85" alt="A speaker addressing an audience from a conference stage" loading="lazy"><div class="photo-label">Listen first. Move with intent.</div></div>
+    <div class="motions-copy reveal"><div class="mono label">04 — Spot the procedure</div><h2>Motions move the room.</h2><p>A motion is a formal request for the committee to do something. Raise one when it helps the room make progress, and follow your conference’s rules on wording and precedence.</p>
+      <div class="motion-list"><div class="motion"><strong>Moderated caucus</strong><span>Focused, timed speeches on a specific subtopic. State the topic, total time, and speaking time.</span></div><div class="motion"><strong>Unmoderated caucus</strong><span>Informal negotiation. State a useful purpose and a reasonable duration.</span></div><div class="motion"><strong>Point of information</strong><span>A question to a speaker, if the chair permits it. Keep it brief and relevant.</span></div><div class="motion"><strong>Point of parliamentary inquiry</strong><span>Ask the chair a procedural question. Save policy arguments for debate.</span></div></div>
+    </div>
+  </div></section>
+  <section class="cheat"><div class="wrap cheat-row"><div><div class="mono">Pocket reminder</div><h2>Position. Proposal. Partnership.</h2></div><p>Know what you believe, bring one workable next step, and leave the door open for another delegation to join.</p><a class="btn" href="#top">Back to the top <span>↑</span></a></div></section>
+  <div class="wrap"><footer><div class="footer-top"><a class="brand" href="#top"><span class="brandmark">P</span><span>Paxence</span></a><span class="footer-small">Made for the moment before you raise your placard.</span></div><div class="footer-bottom"><span>Educational guide · Check your conference rules</span><span class="photo-credit">Photos via <a href="https://unsplash.com" target="_blank" rel="noreferrer">Unsplash</a></span><span>© 2026 Paxence</span></div></footer></div>
+  <script>
+    const phrases={
+      disagree:{title:'Disagree with care',items:[['“That idea is wrong.”','“Our delegation sees this differently, particularly on…”'],['“You are ignoring the issue.”','“Could we also consider the impact on…”'],['“We will never support this.”','“As written, this would be difficult for us to support. We would welcome…”']]},
+      propose:{title:'Put forward an idea',items:[['“We should do this.”','“Our delegation proposes that the committee consider…”'],['“Here is the only solution.”','“One practical step could be…”'],['“Everyone must agree.”','“We invite delegates to build on this proposal by…”']]},
+      invite:{title:'Build consensus',items:[['“Join our bloc.”','“Would your delegation be open to working together on…”'],['“That is not what we want.”','“There may be common ground if we can agree on…”'],['“We need an answer now.”','“What changes would make this language workable for your delegation?”']]},
+      respond:{title:'Respond to a challenge',items:[['“That is not true.”','“Thank you for raising that. Our understanding is…”'],['“You misunderstood us.”','“Perhaps I can clarify our delegation’s position…”'],['“We already said this.”','“To build on the point raised earlier…”']]}
+    };
+    const card=document.querySelector('#phraseCard');
+    function showPhrases(key){const data=phrases[key];card.innerHTML='<div class="mono">A small shift in language</div><h3>'+data.title+'</h3>'+data.items.map(x=>'<div class="swap"><span class="bad">'+x[0]+'</span><span class="arrow">→</span><span class="good">'+x[1]+'</span></div>').join('')}
+    document.querySelectorAll('.phrase-tab').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.phrase-tab').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false')});btn.classList.add('active');btn.setAttribute('aria-selected','true');showPhrases(btn.dataset.type)}));showPhrases('disagree');
+    const form=document.querySelector('#speechForm'),result=document.querySelector('#result'),copy=document.querySelector('#copy');
+    form.addEventListener('submit',e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();const country=v('country')||'[Your delegation]',topic=v('topic')||'[the agenda topic]',position=v('position')||'[your position]',proposal=v('proposal')||'[your proposal]';result.textContent='Honourable Chair, distinguished delegates.\n\nThe delegation of '+country+' recognises that '+topic+' requires our collective attention. '+position+'.\n\nWe therefore propose that the committee consider '+proposal+'.\n\nWe look forward to working with fellow delegates on a practical way forward. Thank you.';result.classList.add('show');copy.hidden=false;copy.textContent='Copy outline'});
+    copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(result.textContent);copy.textContent='Copied'}catch{copy.textContent='Select and copy the outline'}setTimeout(()=>copy.textContent='Copy outline',1800)});
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    const menu=document.querySelector('.menu-btn'),nav=document.querySelector('#nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+  </script>
+</body>
+</html>
